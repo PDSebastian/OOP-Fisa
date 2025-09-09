@@ -1,5 +1,6 @@
 #pragma once
 #include"FiguraGeometrica.h"
+#include "Schema.h"
 #include "Punct.h "
 class Dreptunghi:public FiguraGeometrica
 {
@@ -9,11 +10,6 @@ public :
 	void afisare() override;
 	void translatare(int x, int y ) override;
 	FiguraGeometrica* duplicare() override;
-
-
-
-
-
 
 
 

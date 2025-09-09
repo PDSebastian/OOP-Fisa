@@ -1,5 +1,6 @@
 #pragma once
 #include "FiguraGeometrica.h"
+#include "Schema.h"
 #include"Punct.h"
 class Linie:public FiguraGeometrica
 {

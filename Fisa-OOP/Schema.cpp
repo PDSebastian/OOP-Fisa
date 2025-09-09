@@ -9,12 +9,12 @@ void Schema::translatare(int x, int y) {
 	aux->getData()->translatare(x, y);
 
 }
-Schema Schema ::duplicare() {
-	Schema s;
-	Node<FiguraGeometrica*>* aux = figuri.getHead();
-	s.adaugaFigura(aux->getData()->duplicare());
-	
-}
+//Schema Schema ::duplicare() {
+//	Schema s;
+//	Node<FiguraGeometrica*>* aux = figuri.getHead();
+//	s.adaugaFigura(aux->getData()->duplicare());
+//	
+//}
 void Schema::afisare() {
 	Node<FiguraGeometrica*>*aux = figuri.getHead();
 	aux->getData()->afisare();
