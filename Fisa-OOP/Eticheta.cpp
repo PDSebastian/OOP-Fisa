@@ -8,6 +8,7 @@ void Eticheta::translatare(int x, int y ) {
 	Dreptunghi ::  translatare(x,y);
 }
 FiguraGeometrica* Eticheta::duplicare() {
-	return Dreptunghi::duplicare();
+	return new Eticheta(*this );
+
 
 }

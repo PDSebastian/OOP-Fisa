@@ -3,4 +3,3 @@ FiguraGeometrica::FiguraGeometrica() {};
  void FiguraGeometrica::afisare() {}
 FiguraGeometrica::~FiguraGeometrica() {};
 
-

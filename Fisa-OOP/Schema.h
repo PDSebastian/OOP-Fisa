@@ -9,7 +9,6 @@ public:
 	void adaugaFigura(FiguraGeometrica* fig);
 	void afisare();
 	void translatare(int x, int y);
-	Schema duplicare();
 
 
 

@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include "FiguraGeometrica.h"
 #include"Punct.h"
 #include"Dreptunghi.h"

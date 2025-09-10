@@ -11,8 +11,6 @@ void Dreptunghi::translatare(int x, int y) {
 
 }
 FiguraGeometrica* Dreptunghi::duplicare() {
-	return p1.duplicare();
-	return p2.duplicare();
-
+	return new Dreptunghi(p1, p2);
 
 }

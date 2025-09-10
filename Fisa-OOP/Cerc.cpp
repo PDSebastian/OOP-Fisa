@@ -10,6 +10,7 @@ void Cerc::translatare(int x, int y) {
 
 }
 FiguraGeometrica* Cerc::duplicare() {
-	return punct.duplicare();
+	return new Cerc(punct, raza);
+
 
 }

@@ -11,6 +11,6 @@ void Punct::translatare(int x, int y) {
 
 }
 FiguraGeometrica* Punct::duplicare() {
-	return new Punct(X, Y);
+	return new Punct(X,Y);
 
 }
